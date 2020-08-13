@@ -7,7 +7,7 @@ pipeline {
         stage("git checkout") {
             steps {
                //git credentialsId: 'b8cc2c58-54db-4317-bd77-04a488385e52', url: 'https://github.com/HARISHDARA/test-maven.git'
-               git clone 'https://github.com/HARISHDARA/test-maven.git'
+               sh 'git clone https://github.com/HARISHDARA/test-maven.git'
                echo "lhjdjdslo harish"   
             }    
         } 
