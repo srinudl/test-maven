@@ -4,7 +4,7 @@ mvn compile: It compiles the source code, converts the .java files to .class and
 
 mvn test: It runs unit tests for the project.
 
-nvn package: This step packages the compiled code in distributable format like JAR or WAR.
+mvn package: This step packages the compiled code in distributable format like JAR or WAR.
 
 Integration test: It runs the integration tests for the project.
 
